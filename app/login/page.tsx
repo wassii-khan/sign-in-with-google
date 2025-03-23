@@ -80,8 +80,7 @@ const Login = () => {
             Or Sign in With Google
           </p>
 
-          <div className="flex flex-col gap-2 min-h-screen bg-gray-100 p-10">
-            <button className="flex items-center bg-white border border-gray-300 rounded-lg shadow-md max-w-xs px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+            <button className="cursor-pointer flex items-center gap-2 bg-white border border-gray-300 rounded-lg shadow-md mx-auto px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none ">
               <svg
                 className="h-6 w-6 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -92,9 +91,9 @@ const Login = () => {
                 <g
                   id="Icons"
                   stroke="none"
-                  stroke-width="1"
+                  strokeWidth="1"
                   fill="none"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                 >
                   <g
                     id="Color-"
@@ -138,6 +137,7 @@ const Login = () => {
               </svg>
               <span>Continue with Google</span>
             </button>
+          <div className=" ">
           </div>
         </div>
       </div>
