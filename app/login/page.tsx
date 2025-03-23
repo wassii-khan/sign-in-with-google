@@ -72,15 +72,14 @@ const Login = () => {
               Sign in
             </button>
           </div>
-        </form>
         {/* sepertor */}
         <div className="bg-[#cfcfcf] h-[1px] w-full mt-10 mb-5"></div>
+        {/* Other Sign In Providers */}
         <div>
           <p className="mb-5 text-center text-sm/6 text-gray-500">
             Or Sign in With Google
           </p>
-
-            <button className="cursor-pointer flex items-center gap-2 bg-white border border-gray-300 rounded-lg shadow-md mx-auto px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none ">
+          <button className="cursor-pointer flex items-center gap-2 bg-white border border-gray-300 rounded-lg shadow-md mx-auto px-6 py-2 text-sm font-medium text-gray-800 hover:bg-gray-200 focus:outline-none ">
               <svg
                 className="h-6 w-6 mr-2"
                 xmlns="http://www.w3.org/2000/svg"
@@ -136,10 +135,9 @@ const Login = () => {
                 </g>
               </svg>
               <span>Continue with Google</span>
-            </button>
-          <div className=" ">
-          </div>
+          </button>
         </div>
+        </form>
       </div>
     </div>
   );
