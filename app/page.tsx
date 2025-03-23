@@ -6,6 +6,7 @@ import HomePage from "./home/page";
 export default function App() {
   return (
     <>
+      {/* Session Provider */}
       <SessionProvider>
         <HomePage />
       </SessionProvider>
